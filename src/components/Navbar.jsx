@@ -113,10 +113,10 @@ function Navbar() {
         } z-50 bg-[#0e1114] transition-all duration-300 ease-in-out overflow-hidden`}
       >
         <IoClose
-          className="h-8 w-8 absolute top-[2.5rem] right-[3.5rem] cursor-pointer"
+          className="h-8 w-8 absolute top-[2rem] right-[3rem] cursor-pointer"
           onClick={() => setShowMenu(!showMenu)}
         />
-        <ul className="flex flex-col justify-center gap-24 items-center h-full font-[400]">
+        <ul className="flex flex-col justify-start items-center gap-16 mt-32 h-full font-[400]">
           <li
             className="relative w-[160px]"
             onClick={() => {
@@ -124,8 +124,8 @@ function Navbar() {
               scrollToComponent("projects");
             }}
           >
-            <div className="absolute inset-2 bg-[#ec6e59] transform skew-x-[18deg]"></div>
-            <span className="tracking-wider py-[10px] w-full flex justify-center items-center relative">
+            <div className="absolute inset-2 bg-[#ec6e59] transform skew-y-[-3deg]"></div>
+            <span className="tracking-wider py-[1rem] w-full flex justify-center items-center relative">
               Projects
             </span>
           </li>
@@ -136,8 +136,8 @@ function Navbar() {
               scrollToComponent("skills");
             }}
           >
-            <div className="absolute inset-2 bg-[#ec6e59] transform skew-x-[18deg]"></div>
-            <span className="tracking-wider py-[10px] w-full flex justify-center items-center relative">
+            <div className="absolute inset-2 bg-[#ec6e59] transform skew-y-[-3deg]"></div>
+            <span className="tracking-wider py-[1rem] w-full flex justify-center items-center relative">
               Skills
             </span>
           </li>
@@ -148,8 +148,8 @@ function Navbar() {
               scrollToComponent("contact");
             }}
           >
-            <div className="absolute inset-2 bg-[#ec6e59] transform skew-x-[18deg]"></div>
-            <span className="tracking-wider py-[10px] w-full flex justify-center items-center relative">
+            <div className="absolute inset-2 bg-[#ec6e59] transform skew-y-[-3deg]"></div>
+            <span className="tracking-wider py-[1rem] w-full flex justify-center items-center relative">
               Contact
             </span>
           </li>
@@ -165,8 +165,8 @@ function Navbar() {
                 setShowMenu(false);
               }}
             >
-              <div className="absolute inset-2 bg-[#ec6e59] transform skew-x-[18deg]"></div>
-              <span className="tracking-wider py-[10px] w-full flex justify-center items-center gap-1 relative">
+              <div className="absolute inset-2 bg-[#ec6e59] transform skew-y-[-3deg]"></div>
+              <span className="tracking-wider py-[1rem] w-full flex justify-center items-center gap-1 relative">
                 CV <HiOutlineExternalLink />
               </span>
             </li>

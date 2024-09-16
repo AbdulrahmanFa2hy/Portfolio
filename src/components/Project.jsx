@@ -10,7 +10,11 @@ function Projects({ image, name, live, source }) {
       onMouseEnter={() => setIsMouseEnter(true)}
       onMouseLeave={() => setIsMouseEnter(false)}
     >
-      <img alt="project" src={image} className=" object-contain" />
+      <img
+        alt="project"
+        src={image}
+        className=" object-contain w-full h-full"
+      />
       <div
         className={`flex-col justify-center items-center gap-4 absolute top-0 left-0 w-full h-full bg-[rgba(14,17,20,0.93)] transition-all duration-200 ${
           isMouseEnter ? "flex" : "hidden"
