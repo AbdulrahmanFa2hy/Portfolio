@@ -12,6 +12,13 @@ import Adventure from "../assets/portfolioImages/adventure.png";
 import Afathy from "../assets/portfolioImages/afathy.png";
 import Kasper from "../assets/portfolioImages/kasper.png";
 import WebGlow from "../assets/portfolioImages/web-glow.png";
+import Todo from "../assets/portfolioImages/todo-app.png";
+import Leon from "../assets/portfolioImages/leon.png";
+import Hangman from "../assets/portfolioImages/hangman.png";
+import Dashboard from "../assets/portfolioImages/dashboard.png";
+import Quiz from "../assets/portfolioImages/quiz-app.png";
+import Billo from "../assets/portfolioImages/billo.png";
+import Rocker from "../assets/portfolioImages/Rocker.png";
 
 // in progress projects
 
@@ -116,6 +123,56 @@ const ProjectsData = [
     name: "Kasper",
     live: "https://abdulrahmanfa2hy.github.io/Kasper/",
     source: "https://github.com/AbdulrahmanFa2hy/Kasper",
+  },
+  {
+    id: "rocker",
+    img: Rocker,
+    name: "Rocker",
+    live: "https://abdulrahmanfa2hy.github.io/Rocker/",
+    source: "https://github.com/AbdulrahmanFa2hy/Rocker",
+  },
+  {
+    id: "leon",
+    img: Leon,
+    name: "Leon",
+    live: "https://abdulrahmanfa2hy.github.io/Leon/",
+    source: "https://github.com/AbdulrahmanFa2hy/Leon",
+  },
+  {
+    id: "hangman",
+    img: Hangman,
+    name: "Hangman Game",
+    live: "https://abdulrahmanfa2hy.github.io/Hangman_Game/",
+    source: "https://github.com/AbdulrahmanFa2hy/Hangman_Game",
+  },
+  {
+    id: "billo",
+    img: Billo,
+    name: "Billo",
+    live: "https://abdulrahmanfa2hy.github.io/Billo/",
+    source: "https://github.com/AbdulrahmanFa2hy/Billo",
+  },
+  {
+    id: "dashboard",
+    img: Dashboard,
+    name: "Dashboard",
+    live: "https://abdulrahmanfa2hy.github.io/dashboard/",
+    source: "https://github.com/AbdulrahmanFa2hy/dashboard",
+  },
+  {
+    id: "quiz",
+    img: Quiz,
+    name: "Quiz App",
+    live: "https://abdulrahmanfa2hy.github.io/Quiz_App/",
+    source: "https://github.com/AbdulrahmanFa2hy/Quiz_App",
+  },
+
+  {
+    id: "todo",
+    img: Todo,
+    name: "Todo App",
+    live: "https://abdulrahmanfa2hy.github.io/To_Do_List/",
+    source: "https://github.com/AbdulrahmanFa2hy/To_Do_List",
   },
 ];
 
