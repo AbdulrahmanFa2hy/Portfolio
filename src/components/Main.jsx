@@ -20,13 +20,14 @@ function Main() {
         <div className="h-10 mt-4">
           <Typewriter />
         </div>
-        <p className="dark:text-[#ccc] text-justify leading-loose pt-5 font-[400] mt-[-.8rem] sm:text-[1rem] sm:w-full md:w-[70%] sm:min-w-[300px] sm:mt-0">
+        <p className="text-[#ccc] text-justify leading-loose pt-5 font-[400] mt-[-.8rem] sm:text-[1rem] sm:w-full md:w-[70%] sm:min-w-[300px] sm:mt-0">
           I am passionate about building websites and web applications. With a
-          degree in Computer Science from SEECS, NUST, I have honed my technical
-          skills through diverse projects, both individually and in teams. I
-          have built end-to-end web and mobile applications using technologies
-          such as Figma, Webflow, JavaScript, ReactJS, Next.js, Sass, Bootstrap,
-          Tailwind CSS, Flutter, Dart, NodeJS, Git, MongoDB, and MySQL.
+          degree from the Faculty of Navigation Science and Space Technology,
+          NSST-Beni Sueif, I have honed my technical skills through diverse
+          projects, both individually and in teams. I have developed web
+          applications using technologies such as JavaScript, React.js, Redux
+          Toolkit, Next.js, Sass, Bootstrap, Tailwind CSS, Figma, Git, and
+          GitHub.
         </p>
       </div>
       <div className="max-w-[300px] max-h-[350px] sm:min-w-[250px] md:max-h-[500px] md:max-w-[350px] mx-auto  mt-8 sm:mt-0">
