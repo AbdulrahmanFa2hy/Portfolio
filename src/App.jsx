@@ -7,6 +7,7 @@ import SkillSection from "./components/SkillSection";
 import { FiChevronsUp } from "react-icons/fi";
 import { useEffect, useState } from "react";
 import ToastProvider from "./components/ToastProvider";
+import { div } from "framer-motion/client";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,7 +27,8 @@ function App() {
   }, []);
 
   return (
-    <BackgroundView>
+    <>
+      <BackgroundView />
       <ToastProvider />
       <div className="font-poppins select-none text-black bg-white dark:bg-[#20262E] dark:text-white  transition duration-500">
         <Navbar />
@@ -43,7 +45,7 @@ function App() {
           </div>
         )}
       </div>
-    </BackgroundView>
+    </>
   );
 }
 

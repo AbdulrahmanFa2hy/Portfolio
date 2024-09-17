@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 
 const Typewriter = () => {
-  const strings = ["Front End", "ReactJS", "NextJS"];
   const [currentStringIndex, setCurrentStringIndex] = useState(0);
   const [currentString, setCurrentString] = useState("");
   const [isTyping, setIsTyping] = useState(true);
 
   useEffect(() => {
+    const strings = ["Front End", "ReactJS", "NextJS"];
+
     if (isTyping) {
       if (currentString === strings[currentStringIndex]) {
         setTimeout(() => {
@@ -36,9 +37,9 @@ const Typewriter = () => {
   }, [currentString, currentStringIndex, isTyping]);
 
   return (
-    <span className="font-[500] dark:font-[400] text-black dark:text-[#ec6e59;] text-[1.5rem] mb-2 sm:text-[2rem]">
+    <div className="flex items-center h-10 w-[200px] font-[500] text-[#ec6e59;] text-[1.5rem] sm:text-[2rem] mb-2">
       {currentString}
-    </span>
+    </div>
   );
 };
 

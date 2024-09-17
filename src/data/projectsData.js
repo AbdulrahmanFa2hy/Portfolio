@@ -71,7 +71,7 @@ const ProjectsData = [
     id: "auth",
     img: Auth,
     name: "Authentication App",
-    live: "https://authintication.netlify.app/sign-in",
+    live: "https://authintication.netlify.app",
     source: "https://github.com/AbdulrahmanFa2hy/Authintication-app",
   },
   {

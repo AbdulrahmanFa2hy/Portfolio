@@ -49,9 +49,9 @@ export default function SkillSection() {
   };
 
   return (
-    <div id="skills" className="font-bold px-4 sm:px-8 md:px-20 pt-8">
+    <div id="skills" className="font-bold px-4 sm:px-8 md:px-20 h-fit">
       <AnimatedHeading
-        className="w-full mb-10 text-2xl sm:text-3xl font-bold text-left"
+        className="w-full mb-10 text-2xl sm:text-3xl font-bold"
         variants={headingFromLeft}
       >
         My Top Skills
