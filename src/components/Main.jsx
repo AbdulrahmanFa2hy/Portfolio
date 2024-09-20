@@ -27,15 +27,21 @@ function Main() {
           GitHub.
         </p>
       </div>
-      <div className="flex flex-col gap-5 sm:gap-12 lg:flex-row">
-        <div className="w-[280px] sm:w-[250px] md:w-[280px] lg:w-[330px] mt-8 sm:mt-0">
-          <img className="w-full h-full" src={myImage} alt="main" />
+      <div className="flex flex-col gap-5 sm:gap-10 lg:flex-row z-40">
+        <div className="w-[280px] sm:w-[240px] md:w-[280px] lg:w-[330px] mt-8 sm:mt-0 ">
+          <img
+            className="w-full h-full"
+            src={myImage}
+            alt="main"
+            title="React Developer"
+          />
         </div>
         <div className="flex flex-row justify-center lg:flex-col mt-8 sm:mt-0 gap-6 ">
           <a
             rel="noreferrer"
             href="https://www.linkedin.com/in/abdulrahmanfa2hy/"
             target="_blank"
+            title="LinkedIn"
           >
             <FaLinkedinIn size={40} className="cursor-pointer" />
           </a>
@@ -43,10 +49,16 @@ function Main() {
             rel="noreferrer"
             href="https://github.com/AbdulrahmanFa2hy"
             target="_blank"
+            title="GitHub"
           >
             <FaGithub size={40} className="cursor-pointer" />
           </a>
-          <a rel="noreferrer" href="https://wa.me/201158371316" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://wa.me/201158371316"
+            target="_blank"
+            title="WhatsApp"
+          >
             <FaWhatsapp size={40} className="cursor-pointer" />
           </a>
         </div>

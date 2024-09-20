@@ -22,6 +22,7 @@ function Projects({ image, name, live, source }) {
             href={live}
             target="_blank"
             className="flex items-center gap-2 py-2 px-4 sm:py-3 sm:px-6 bg-[#EC6E59] sm:bg-transparent hover:bg-[#EC6E59] rounded-[8px] transition duration-200"
+            title="Visit Website"
           >
             Demo <VscEye />
           </a>
@@ -29,6 +30,7 @@ function Projects({ image, name, live, source }) {
             href={source}
             target="_blank"
             className="flex items-center gap-2 py-2 px-4 sm:py-3 sm:px-6 bg-[#EC6E59] sm:bg-transparent hover:bg-[#EC6E59] rounded-[8px] transition duration-200"
+            title="Show Code"
           >
             code <AiFillGithub />
           </a>

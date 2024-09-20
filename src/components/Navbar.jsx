@@ -90,14 +90,15 @@ function Navbar() {
             >
               Contact
             </li>
-            <a
-              href="https://drive.google.com/drive/folders/1TZzWaO1goGscmOZ__jZNodc3RfuJOUkb"
-              target="_blank"
-            >
-              <li className="flex items-center gap-1 tracking-wider hover:after:bg-[#ec6e59;] hover:after:w-full font-[400]">
+            <li className="hover:after:bg-[#ec6e59;] hover:after:w-full font-[400]">
+              <a
+                href="https://drive.google.com/drive/folders/1TZzWaO1goGscmOZ__jZNodc3RfuJOUkb"
+                target="_blank"
+                className="flex items-center gap-1"
+              >
                 CV <HiOutlineExternalLink />
-              </li>
-            </a>
+              </a>
+            </li>
           </ul>
         )}
         <GiHamburgerMenu
@@ -153,24 +154,24 @@ function Navbar() {
               Contact
             </span>
           </li>
-          <a
-            className="cursor-pointer w-full flex justify-center items-center"
-            href="https://drive.google.com/drive/folders/1TZzWaO1goGscmOZ__jZNodc3RfuJOUkb"
-            target="_blank"
-            onClick={() => setShowMenu(false)}
+          <li
+            className="relative w-[160px]"
+            onClick={() => {
+              setShowMenu(false);
+            }}
           >
-            <li
-              className="relative w-[160px]"
-              onClick={() => {
-                setShowMenu(false);
-              }}
+            <a
+              className="cursor-pointer w-full flex justify-center items-center"
+              href="https://drive.google.com/drive/folders/1TZzWaO1goGscmOZ__jZNodc3RfuJOUkb"
+              target="_blank"
+              onClick={() => setShowMenu(false)}
             >
               <div className="absolute inset-2 bg-[#ec6e59] transform skew-y-[-3deg]"></div>
               <span className="tracking-wider py-[1rem] w-full flex justify-center items-center gap-1 relative">
                 CV <HiOutlineExternalLink />
               </span>
-            </li>
-          </a>
+            </a>
+          </li>
         </ul>
       </div>
     </>
