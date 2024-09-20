@@ -15,7 +15,6 @@ import WebGlow from "../assets/portfolioImages/web-glow.png";
 import Todo from "../assets/portfolioImages/todo-app.png";
 import Leon from "../assets/portfolioImages/leon.png";
 import Hangman from "../assets/portfolioImages/hangman.png";
-import Dashboard from "../assets/portfolioImages/dashboard.png";
 import Quiz from "../assets/portfolioImages/quiz-app.png";
 import Billo from "../assets/portfolioImages/billo.png";
 import Rocker from "../assets/portfolioImages/Rocker.png";
@@ -75,19 +74,11 @@ const ProjectsData = [
     source: "https://github.com/AbdulrahmanFa2hy/Authintication-app",
   },
   {
-    id: "memory-game",
-    img: MemoryGame,
-    name: "Memory Game ",
-    live: "https://abdulrahmanfa2hy.github.io/Memory-Game/",
-    source:
-      "https://github.com/AbdulrahmanFa2hy/Memory-Game?tab=readme-ov-file",
-  },
-  {
-    id: "gpt",
-    img: GPT,
-    name: "Modern GPT-3",
-    live: "https://modern-react-project.netlify.app/",
-    source: "https://github.com/AbdulrahmanFa2hy/Modern_React_Project",
+    id: "afathy",
+    img: Afathy,
+    name: "AFathy",
+    live: "https://abdulrahmanfa2hy.github.io/Afathy/",
+    source: "https://github.com/AbdulrahmanFa2hy/Afathy",
   },
   {
     id: "patrix",
@@ -97,25 +88,19 @@ const ProjectsData = [
     source: "https://github.com/AbdulrahmanFa2hy/Bootstrap_SASS_Template",
   },
   {
-    id: "adventure",
-    img: Adventure,
-    name: "Adventure",
-    live: "https://abdulrahmanfa2hy.github.io/Adventure/",
-    source: "https://github.com/AbdulrahmanFa2hy/Adventure",
+    id: "gpt",
+    img: GPT,
+    name: "Modern GPT-3",
+    live: "https://modern-react-project.netlify.app/",
+    source: "https://github.com/AbdulrahmanFa2hy/Modern_React_Project",
   },
   {
-    id: "web-glow",
-    img: WebGlow,
-    name: "WebGlow",
-    live: "https://abdulrahmanfa2hy.github.io/WebGlow/",
-    source: "https://github.com/AbdulrahmanFa2hy/WebGlow",
-  },
-  {
-    id: "afathy",
-    img: Afathy,
-    name: "AFathy",
-    live: "https://abdulrahmanfa2hy.github.io/Afathy/",
-    source: "https://github.com/AbdulrahmanFa2hy/Afathy",
+    id: "memory-game",
+    img: MemoryGame,
+    name: "Memory Game ",
+    live: "https://abdulrahmanfa2hy.github.io/Memory-Game/",
+    source:
+      "https://github.com/AbdulrahmanFa2hy/Memory-Game?tab=readme-ov-file",
   },
   {
     id: "kasper",
@@ -139,11 +124,18 @@ const ProjectsData = [
     source: "https://github.com/AbdulrahmanFa2hy/Leon",
   },
   {
-    id: "hangman",
-    img: Hangman,
-    name: "Hangman Game",
-    live: "https://abdulrahmanfa2hy.github.io/Hangman_Game/",
-    source: "https://github.com/AbdulrahmanFa2hy/Hangman_Game",
+    id: "web-glow",
+    img: WebGlow,
+    name: "WebGlow",
+    live: "https://abdulrahmanfa2hy.github.io/WebGlow/",
+    source: "https://github.com/AbdulrahmanFa2hy/WebGlow",
+  },
+  {
+    id: "adventure",
+    img: Adventure,
+    name: "Adventure",
+    live: "https://abdulrahmanfa2hy.github.io/Adventure/",
+    source: "https://github.com/AbdulrahmanFa2hy/Adventure",
   },
   {
     id: "billo",
@@ -153,11 +145,11 @@ const ProjectsData = [
     source: "https://github.com/AbdulrahmanFa2hy/Billo",
   },
   {
-    id: "dashboard",
-    img: Dashboard,
-    name: "Dashboard",
-    live: "https://abdulrahmanfa2hy.github.io/dashboard/",
-    source: "https://github.com/AbdulrahmanFa2hy/dashboard",
+    id: "hangman",
+    img: Hangman,
+    name: "Hangman Game",
+    live: "https://abdulrahmanfa2hy.github.io/Hangman_Game/",
+    source: "https://github.com/AbdulrahmanFa2hy/Hangman_Game",
   },
   {
     id: "quiz",
@@ -166,7 +158,6 @@ const ProjectsData = [
     live: "https://abdulrahmanfa2hy.github.io/Quiz_App/",
     source: "https://github.com/AbdulrahmanFa2hy/Quiz_App",
   },
-
   {
     id: "todo",
     img: Todo,
