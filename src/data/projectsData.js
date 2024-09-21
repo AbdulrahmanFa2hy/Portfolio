@@ -84,8 +84,8 @@ const ProjectsData = [
     id: "patrix",
     img: Patrix,
     name: "Patrix",
-    live: "https://bootstrap-sass-template.netlify.app/",
-    source: "https://github.com/AbdulrahmanFa2hy/Bootstrap_SASS_Template",
+    live: "https://patrix-new.netlify.app/",
+    source: "https://github.com/AbdulrahmanFa2hy/Patrix",
   },
   {
     id: "gpt",
