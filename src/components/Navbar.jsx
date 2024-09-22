@@ -58,7 +58,7 @@ function Navbar() {
   return (
     <>
       <div
-        className={`flex justify-between items-center w-full py-[1rem] md:py-[1.5rem] px-16 sm:px-8 md:px-20 z-20  transition duration-700 ease-in-out fixed top-0 left-0 ${
+        className={`flex justify-between items-center w-full py-[1rem] md:py-[1.5rem] px-16 sm:px-8 md:px-20 z-50  transition duration-700 ease-in-out fixed top-0 left-0 ${
           showNavbar ? "translate-y-0" : "-translate-y-full"
         } ${
           lastScrollY > 100 &&
@@ -67,7 +67,7 @@ function Navbar() {
       >
         <TbWorldCode
           alt="logo"
-          className="h-[2rem] w-[2rem]"
+          className="h-[2rem] w-[2rem] cursor-pointer"
           onClick={() => window.scrollTo(0, 0)}
         />
         {!showMenu && (
