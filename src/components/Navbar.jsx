@@ -6,8 +6,14 @@ import { IoClose } from "react-icons/io5";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
-  const [showNavbar, setShowNavbar] = useState(true);
+  const [showNavbar, setShowNavbar] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    if (window.scrollY == 0) {
+      setShowNavbar(true);
+    }
+  }, []);
 
   useEffect(() => {
     const handleShowingNavbar = () => {
@@ -59,7 +65,7 @@ function Navbar() {
     <>
       <div
         className={`flex justify-between items-center w-full py-[1rem] md:py-[1.5rem] px-16 sm:px-8 md:px-20 z-50  transition duration-700 ease-in-out fixed top-0 left-0 ${
-          showNavbar ? "translate-y-0" : "-translate-y-full"
+          showNavbar ? "translate-y-0" : "-translate-y-[110%]"
         } ${
           lastScrollY > 100 &&
           "bg-[rgba(18,22,26,0.95)]  shadow-sm shadow-[rgb(18,22,26)]"
