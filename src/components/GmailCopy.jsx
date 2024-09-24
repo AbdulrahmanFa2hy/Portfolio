@@ -16,8 +16,9 @@ const GmailCopy = () => {
 
   return (
     <div
-      className="cursor-pointer text-[.85rem] sm:text-[1rem] z-50"
+      className="cursor-pointer text-[.85rem] sm:text-[1rem] w-[250px] m-auto"
       onClick={copyToClipboard}
+      title="Copy"
     >
       {gmailAddress}
     </div>

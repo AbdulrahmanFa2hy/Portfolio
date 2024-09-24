@@ -29,7 +29,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex flex-col gap-6 w-full px-4 sm:px-8 md:px-16 mt-28"
+      className="flex flex-col gap-6 w-full px-4 sm:px-8 md:px-16 mt-28 relative"
     >
       <div className="flex flex-col text-center">
         <h1 className="tracking-wider font-[600] ext-[1.4rem] md:text-[2rem]">
