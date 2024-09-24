@@ -6,7 +6,8 @@ const Typewriter = () => {
   const [isTyping, setIsTyping] = useState(true);
 
   useEffect(() => {
-    const strings = ["Front End", "ReactJS", "NextJS"];
+    const strings = ["Front End", "React JS"];
+    // "NextJS"
 
     if (isTyping) {
       if (currentString === strings[currentStringIndex]) {
