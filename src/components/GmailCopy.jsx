@@ -1,7 +1,7 @@
 import { toast } from "react-toastify";
 
 const GmailCopy = () => {
-  const gmailAddress = "abdelrhamn.fa2hy@gmail.com";
+  const gmailAddress = "abdelrhman.fa2hy@gmail.com";
 
   const copyToClipboard = () => {
     navigator.clipboard
