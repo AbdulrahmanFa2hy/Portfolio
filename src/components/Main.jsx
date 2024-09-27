@@ -17,7 +17,7 @@ function Main() {
           </p>
         </div>
         <Typewriter />
-        <div className="text-[#ccc] text-justify leading-loose font-[400] sm:text-[1rem] bg-red-50 z-10">
+        <div className="text-[#ccc] text-justify leading-loose font-[400] sm:text-[1rem] ">
           <p className="mb-5 sm:mb-3 md:mb-6 lg:mb-5">
             Specializing in modern user-friendly designs that work seamlessly on
             all devices. My focus is on helping businesses enhance their online
