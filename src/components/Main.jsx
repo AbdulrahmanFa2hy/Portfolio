@@ -17,15 +17,22 @@ function Main() {
           </p>
         </div>
         <Typewriter />
-        <p className="text-[#ccc] text-justify leading-loose font-[400] sm:text-[1rem]">
-          I am passionate about building websites and web applications. With a
-          degree from the Faculty of Navigation Science and Space Technology,
-          NSST-Beni Sueif, I have honed my technical skills through diverse
-          projects, both individually and in teams. I have developed web
-          applications using technologies such as JavaScript, React.js, Redux
-          Toolkit, Next.js, Sass, Bootstrap, Tailwind CSS, Figma, Git, and
-          GitHub.
-        </p>
+        <div className="text-[#ccc] text-justify leading-loose font-[400] sm:text-[1rem]">
+          <p className="mb-5 sm:mb-3 md:mb-6 lg:mb-5">
+            Specializing in modern user-friendly designs that work seamlessly on
+            all devices. My focus is on helping businesses enhance their online
+            presence and connect effectively to their audience. Dedicated to
+            delivering high-quality solutions, each project is customized to
+            meet the specific needs of the business, ensuring that their website
+            is not only visually appealing but also effective in achieving their
+            goals.
+          </p>
+          <p>
+            Check out the portfolio to see examples of successful projects and
+            learn how a customized website can elevate your brand and drive
+            growth.
+          </p>
+        </div>
       </div>
       <div className="flex flex-col gap-5 sm:gap-10 lg:flex-row z-40">
         <div className="w-[280px] sm:w-[240px] md:w-[280px] lg:w-[330px] mt-8 sm:mt-0 ">
