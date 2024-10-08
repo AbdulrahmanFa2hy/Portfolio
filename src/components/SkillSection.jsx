@@ -70,9 +70,9 @@ export default function SkillSection() {
               variants={popUp}
               key={index}
               title={skill.name}
-              className="flex items-center justify-center gap-4 p-4 origin-center transform border border-gray-300 rounded-sm sm:justify-start bg-transparent hover:bg-[#121519] dark:bg-darkPrimary hover:dark:bg-darkSecondary dark:border-neutral-700 md:origin-top group z-10"
+              className="flex items-center justify-center gap-4 p-4 origin-center transform border border-gray-300 rounded-sm sm:justify-start bg-transparent hover:bg-[#121519] dark:bg-darkPrimary hover:dark:bg-darkSecondary dark:border-neutral-700 md:origin-top group"
             >
-              <Icon className="w-8 h-8" />
+              <Icon className="w-8 h-8" title={skill.name} />
               {/* <div className="relative transition pointer-events-none select-none group-hover:scale-110 sm:group-hover:scale-100"></div> */}
               <p className="hidden text-sm font-semibold pointer-events-none select-none sm:inline-flex md:text-base">
                 {skill.name}

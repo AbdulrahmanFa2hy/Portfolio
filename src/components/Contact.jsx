@@ -73,9 +73,9 @@ function Contact() {
         </button>
       </form>
 
-      <footer className="flex items-center justify-center text-[0.6rem] leading-loose sm:text-[1rem]  tm:text-[1rem] pb-4 font-serif ">
+      <footer className="flex items-center justify-center text-[.75rem] leading-loose sm:text-[1rem] pb-4 font-serif ">
         © 2024
-        <span className="mx-2 text-[400] px-2 border-b-2 border-b-[#ec6e59] transform -skew-x-12 cursor-pointer">
+        <span className="mx-1 text-[400] px-1 border-b-2 border-b-[#ec6e59] transform -skew-x-12 cursor-pointer">
           A.Fathy
         </span>
         All Rights Reserved.

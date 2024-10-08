@@ -8,7 +8,7 @@ function BackgroundView() {
 
   return (
     <Particles
-      className="absolute top-0 left-0 w-full h-full overflow-hidden"
+      className="absolute top-0 left-0 w-full h-full overflow-hidden z-[-1] bg-[#20262e]"
       init={particlesInit}
       options={{
         fpsLimit: 120,

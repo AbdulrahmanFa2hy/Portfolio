@@ -77,26 +77,32 @@ function Navbar() {
           onClick={() => window.scrollTo(0, 0)}
         />
         {!showMenu && (
-          <ul className="hidden sm:flex font-[400] text-white text-custom-20 gap-[1.8rem] md:gap-[4rem] lg:gap-[4.5rem]">
+          <ul className="hidden sm:flex font-[400]  gap-[1.8rem] md:gap-[4rem] lg:gap-[4.5rem]">
             <li
               className="tracking-wide hover:after:bg-[#ec6e59;] font-[400]"
               onClick={() => scrollToComponent("projects")}
+              tabIndex={0}
             >
               Projects
             </li>
             <li
               className="tracking-wider hover:after:bg-[#ec6e59;] font-[400]"
               onClick={() => scrollToComponent("skills")}
+              tabIndex={0}
             >
               Skills
             </li>
             <li
               className="tracking-wider hover:after:bg-[#ec6e59;] font-[400]"
               onClick={() => scrollToComponent("contact")}
+              tabIndex={0}
             >
               Contact
             </li>
-            <li className="hover:after:bg-[#ec6e59;] hover:after:w-full font-[400]">
+            <li
+              className="hover:after:bg-[#ec6e59;] hover:after:w-full font-[400]"
+              tabIndex={0}
+            >
               <a
                 href="https://drive.google.com/drive/folders/1TZzWaO1goGscmOZ__jZNodc3RfuJOUkb"
                 target="_blank"

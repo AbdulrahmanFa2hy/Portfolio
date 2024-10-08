@@ -6,7 +6,7 @@ function Projects({ image, name, live, source }) {
   const [isMouseEnter, setIsMouseEnter] = useState(false);
   return (
     <div
-      className="w-[90%] sm:w-full cursor-pointer rounded-sm sm:rounded-md overflow-hidden relative"
+      className="w-full cursor-pointer rounded-sm sm:rounded-md overflow-hidden relative"
       onMouseEnter={() => setIsMouseEnter(true)}
       onMouseLeave={() => setIsMouseEnter(false)}
     >
