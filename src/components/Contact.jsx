@@ -44,14 +44,14 @@ function Contact() {
       >
         <div className="grid sm:grid-cols-2 gap-4">
           <input
-            className="p-4 rounded-[4px] bg-[#3d3e4b] h-[58px]"
+            className="p-4 rounded-[4px] bg-[rgba(61,62,75,0.7)] h-[58px]"
             placeholder="Name"
             type="text"
             name="user_name"
             required
           />
           <input
-            className="p-4 rounded-[4px] bg-[#3d3e4b] h-[58px]"
+            className="p-4 rounded-[4px] bg-[rgba(61,62,75,0.7)] h-[58px]"
             placeholder="Email"
             type="email"
             name="user_email"
@@ -59,7 +59,7 @@ function Contact() {
           />
         </div>
         <textarea
-          className="p-4 bg-[#343541] h-[280px] resize-none rounded-[4px]"
+          className="p-4 bg-[rgba(61,62,75,0.7)] h-[280px] resize-none rounded-[4px]"
           placeholder="Your message"
           type="text"
           name="message"
