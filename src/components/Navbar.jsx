@@ -117,9 +117,9 @@ function Navbar() {
           className="sm:hidden min-h-[35px] w-6 cursor-pointer "
           onClick={() => setShowMenu(!showMenu)}
         />
-
-        {/* Mobile View */}
       </div>
+
+      {/* Mobile View */}
       <div
         className={`fixed top-0 left-0 w-full h-[100vh] transform ${
           showMenu ? " translate-y-0" : "translate-y-full"
